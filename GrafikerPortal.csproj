@@ -25,6 +25,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,10 +46,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ImageResizer">
-      <HintPath>E:\Documents and Settings\Administrator\Belgelerim\Download\Resizer3-3-3-full-Mar-2-2013\ImageResizer.dll</HintPath>
+      <HintPath>bin\ImageResizer.dll</HintPath>
     </Reference>
     <Reference Include="Kaliko.ImageLibrary">
-      <HintPath>C:\Users\Cagatay\Desktop\ImageLibrary-binary-1_2_5\Kaliko.ImageLibrary.dll</HintPath>
+      <HintPath>bin\Kaliko.ImageLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
