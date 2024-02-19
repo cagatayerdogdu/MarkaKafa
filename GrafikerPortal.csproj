@@ -46,10 +46,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ImageResizer">
-      <HintPath>bin\ImageResizer.dll</HintPath>
+      <HintPath>dll\ImageResizer.dll</HintPath>
     </Reference>
     <Reference Include="Kaliko.ImageLibrary">
-      <HintPath>bin\Kaliko.ImageLibrary.dll</HintPath>
+      <HintPath>dll\Kaliko.ImageLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -92,6 +92,8 @@
     <Content Include="css\alertify.bootstrap.css" />
     <Content Include="css\alertify.core.css" />
     <Content Include="css\alertify.default.css" />
+    <Content Include="dll\ImageResizer.dll" />
+    <Content Include="dll\Kaliko.ImageLibrary.dll" />
     <Content Include="faturaduzenleodeme.aspx" />
     <Content Include="css\bootstrap-combined.min.css" />
     <Content Include="css\bootstrap.min.js" />
